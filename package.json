@@ -1,0 +1,33 @@
+{
+    "name": "rimless-monokai",
+    "displayName": "rimless-monokai",
+    "description": "Based on monokai modification, I became my favorite style.",
+    "version": "1.0.1",
+    "publisher": "rimless-monokai",
+    "keywords": ["monokai", "monokai-theme", "theme-monokai"],
+    "author": {
+        "name": "liaohui5",
+        "email": "1182468610@qq.com",
+        "github": "https://github.com/liaohui5"
+    },
+    "icon": "images/logo.png",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/liaohui5/rimless-monokai"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "rimless-monokai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/rimless-monokai-color-theme.json"
+            }
+        ]
+    }
+}
